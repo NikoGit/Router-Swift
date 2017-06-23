@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2305482E1EFCEEF50038C38D /* RoutableURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2305482B1EFCEEF50038C38D /* RoutableURL.swift */; };
+		2305482F1EFCEEF50038C38D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2305482C1EFCEEF50038C38D /* Router.swift */; };
+		230548301EFCEEF50038C38D /* URLRouteMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2305482D1EFCEEF50038C38D /* URLRouteMap.swift */; };
 		236342881EFBBFD200E0FBD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236342871EFBBFD200E0FBD3 /* AppDelegate.swift */; };
 		2363428A1EFBBFD200E0FBD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236342891EFBBFD200E0FBD3 /* ViewController.swift */; };
 		2363428D1EFBBFD200E0FBD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2363428B1EFBBFD200E0FBD3 /* Main.storyboard */; };
 		2363428F1EFBBFD200E0FBD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2363428E1EFBBFD200E0FBD3 /* Assets.xcassets */; };
 		236342921EFBBFD200E0FBD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236342901EFBBFD200E0FBD3 /* LaunchScreen.storyboard */; };
-		2363429D1EFBBFEF00E0FBD3 /* RoutableURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2363429A1EFBBFEF00E0FBD3 /* RoutableURL.swift */; };
-		2363429E1EFBBFEF00E0FBD3 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2363429B1EFBBFEF00E0FBD3 /* Router.swift */; };
-		2363429F1EFBBFEF00E0FBD3 /* URLRouteMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2363429C1EFBBFEF00E0FBD3 /* URLRouteMap.swift */; };
 		236342A41EFBC2C000E0FBD3 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236342A21EFBC2C000E0FBD3 /* TestViewController.swift */; };
 		236342A51EFBC2C000E0FBD3 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 236342A31EFBC2C000E0FBD3 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2305482B1EFCEEF50038C38D /* RoutableURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoutableURL.swift; path = Router/RoutableURL.swift; sourceTree = "<group>"; };
+		2305482C1EFCEEF50038C38D /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Router.swift; path = Router/Router.swift; sourceTree = "<group>"; };
+		2305482D1EFCEEF50038C38D /* URLRouteMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLRouteMap.swift; path = Router/URLRouteMap.swift; sourceTree = "<group>"; };
 		236342841EFBBFD200E0FBD3 /* Router-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Router-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		236342871EFBBFD200E0FBD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		236342891EFBBFD200E0FBD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,9 +30,6 @@
 		2363428E1EFBBFD200E0FBD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		236342911EFBBFD200E0FBD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		236342931EFBBFD200E0FBD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2363429A1EFBBFEF00E0FBD3 /* RoutableURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutableURL.swift; sourceTree = "<group>"; };
-		2363429B1EFBBFEF00E0FBD3 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		2363429C1EFBBFEF00E0FBD3 /* URLRouteMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRouteMap.swift; sourceTree = "<group>"; };
 		236342A21EFBC2C000E0FBD3 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		236342A31EFBC2C000E0FBD3 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,9 +80,9 @@
 		236342991EFBBFD900E0FBD3 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				2363429B1EFBBFEF00E0FBD3 /* Router.swift */,
-				2363429A1EFBBFEF00E0FBD3 /* RoutableURL.swift */,
-				2363429C1EFBBFEF00E0FBD3 /* URLRouteMap.swift */,
+				2305482B1EFCEEF50038C38D /* RoutableURL.swift */,
+				2305482C1EFCEEF50038C38D /* Router.swift */,
+				2305482D1EFCEEF50038C38D /* URLRouteMap.swift */,
 			);
 			name = Router;
 			sourceTree = "<group>";
@@ -160,12 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2363429E1EFBBFEF00E0FBD3 /* Router.swift in Sources */,
 				2363428A1EFBBFD200E0FBD3 /* ViewController.swift in Sources */,
+				2305482E1EFCEEF50038C38D /* RoutableURL.swift in Sources */,
+				2305482F1EFCEEF50038C38D /* Router.swift in Sources */,
 				236342881EFBBFD200E0FBD3 /* AppDelegate.swift in Sources */,
-				2363429D1EFBBFEF00E0FBD3 /* RoutableURL.swift in Sources */,
+				230548301EFCEEF50038C38D /* URLRouteMap.swift in Sources */,
 				236342A41EFBC2C000E0FBD3 /* TestViewController.swift in Sources */,
-				2363429F1EFBBFEF00E0FBD3 /* URLRouteMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +327,7 @@
 				236342981EFBBFD200E0FBD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
